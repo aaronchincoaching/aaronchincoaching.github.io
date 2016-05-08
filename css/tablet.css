@@ -1,0 +1,290 @@
+
+@media screen and (min-width: 481px) and (max-width: 799px) { /* ------------------------------------------------------- */
+ 
+.container {
+	max-width: 600px;
+	height: auto;
+	margin: 0 auto; 
+	color: #ffffff;
+	font-size:12px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+
+/* 'Nav
+---------------------------------------------------------*/
+
+#nav {
+	width: 100%;
+	height: 92px;
+	clear: both;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	background: #19191b url(../images/nav-bg.jpg) repeat-x; 
+	background-size: contain;
+	}
+#nav .logo {
+	width: 140px;
+	height: 26px;
+	display: inline;
+	float: left;	
+	margin: 27px 0 0px 10px;
+	background: url(../images/nav-logo.jpg) no-repeat #5bb882;
+	background-size: contain;
+	}
+#nav .city {
+	width: 208px;
+	height: 36px;
+	display:none;
+	float: right;	
+	margin: 23px 30px 0px 0px;
+	background: url(../images/nav-city.jpg) no-repeat #5bb882;
+	background-size: contain;
+	}
+#nav .email {
+	width: 184px;
+	height: 36px;
+	display: inline;
+	float: right;	
+	margin: 22px 24px 0px 0px;
+	background: url(../images/nav-email.jpg) no-repeat #5bb882;
+	background-size: contain;
+	}
+#nav .phone-m {
+	width: 114px;
+	height: 36px;
+	display: inline;
+	float: right;	
+	margin: 22px 10px 0px 0px;
+	background: url(../images/nav-phone.jpg) no-repeat #5bb882;
+	background-size: contain;
+	}
+#nav .phone {
+	display: none;
+	}
+	
+/* 'info
+---------------------------------------------------------*/
+
+#info {
+	width: 100%;
+	height: auto;
+	clear: both;
+	overflow: hidden;
+	padding: 20px 0px 37px 0px;
+	background: #19191b; 
+	}
+#info .methods {
+	width: 96%;
+	height: auto;
+	display: inline;
+	float: left;	
+	margin: 0px 1% 20px 1%;
+	text-align: center;
+	}
+#info .methods .image{
+	width: 100%;
+	height: 80px;
+	display: inline;
+	float: left;	
+	margin: 0px 0 20px 0;
+	text-align: center;
+	background: url(../images/info-methods.jpg) top center no-repeat #19191b; 
+	background-size: contain;
+	}
+#info .trainer {
+	width: 47%;
+	height: auto;
+	display: inline;
+	float: left;	
+	margin: 0px 4% 0px 1%;
+	text-align: center;
+	}
+#info .trainer .image{
+	width: 100%;
+	height: 80px;
+	display: inline;
+	float: left;	
+	margin: 0px 0 20px 0;
+	text-align: center;
+	background: url(../images/info-trainer.jpg) top center no-repeat #19191b; 
+	background-size: contain;
+	}	
+#info .fitness {
+	width: 47%;
+	height: auto;
+	display: inline;
+	float: left;	
+	margin: 0px 1% 0px 0%;
+	text-align: center;
+	}
+#info .fitness .image{
+	width: 100%;
+	height: 80px;
+	display: inline;
+	float: left;	
+	margin: 0px 0 20px 0;
+	text-align: center;
+	background: url(../images/info-fitnessdefense.jpg) top center no-repeat #19191b; 
+	background-size: contain;
+	}
+	
+/* 'fullimage
+---------------------------------------------------------*/
+
+#fullimage {
+	width: 100%;
+	height: auto;
+	clear: both;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	}
+#fullimage .image {
+	width: 100%;
+    height: auto%;
+	}
+		
+/* 'pricing
+---------------------------------------------------------*/
+
+#pricing {
+	width: 100%;
+	height: auto;
+	clear: both;
+	overflow: hidden;
+	padding: 0px 0px 60px 0px;
+	background: #4e4e50 url(../images/pricing-bg.jpg) bottom repeat-x;
+	background-size: contain:
+	}
+#pricing .title {
+	width: 9.5%;
+	height: 36px;
+	display: none;
+	float: left;	
+	margin: 37px 8% 0px 1.5%;
+	background: #4e4e50 url(../images/pricing-title.jpg) no-repeat;
+	background-size: contain;
+	}	
+#pricing .one {
+	width: 20%;
+	height: auto;
+	display: inline;
+	float: left;	
+	margin: 37px 4.5% 0px 1.5%;
+	}
+#pricing .one .image {
+	width: 100%;
+	height: 36px;
+	display: inline;
+	float: left;	
+	margin: 0px 0% 5px 0%;
+	background: #4e4e50 url(../images/pricing-1.jpg) no-repeat;
+	background-size: contain;
+	}
+#pricing .two {
+	width: 20%;
+	height: auto;
+	display: inline;
+	float: left;	
+	margin: 37px 4.5% 0px 0%;
+	}
+#pricing .two .image {
+	width: 100%;
+	height: 36px;
+	display: inline;
+	float: left;	
+	margin: 0px 0% 5px 0%;
+	background: #4e4e50 url(../images/pricing-2.jpg) no-repeat;
+	background-size: contain;
+	}
+#pricing .three {
+	width: 20%;
+	height: auto;
+	display: inline;
+	float: left;	
+	margin: 37px 4.5% 0px 0%;
+	}
+#pricing .three .image {
+	width: 100%;
+	height: 36px;
+	display: inline;
+	float: left;	
+	margin: 0px 0% 5px 0%;
+	background: #4e4e50 url(../images/pricing-3.jpg) no-repeat;
+	background-size: contain;
+	}
+#pricing .four {
+	width: 21.5%;
+	height: auto;
+	display: inline;
+	float: left;	
+	margin: 37px 1.5% 0px 0%;
+	}
+#pricing .four .image {
+	width: 100%;
+	height: 36px;
+	display: inline;
+	float: left;	
+	margin: 0px 0% 5px 0%;
+	background: #4e4e50 url(../images/pricing-4.jpg) no-repeat;
+	background-size: contain;
+	}
+#pricing .extra {
+	display: block;
+	clear: both;
+	width: 100%;
+	height: auto;
+	margin: 0px 1.5% 0 1.5%;
+	}
+	
+/* 'bio
+---------------------------------------------------------*/
+
+#bio {
+	width: 100%;
+	height: auto;
+	clear: both;
+	overflow: hidden;
+	padding: 20px 0px 30px 0px;
+	background: #b3b4b4; 
+	}
+#bio .logo {
+	width: 27%;
+	height: 224px;
+	display: none;
+	float: left;	
+	margin: 0px 6% 0px 1.5%;
+	background: #b3b4b4 url(../images/bio-logo.jpg) no-repeat;
+	background-size: contain;
+	}
+#bio .title {
+	width: 100%;
+	height: 37px;
+	display: inline;
+	float: left;	
+	margin: 0px 0% 10px 1.5%;
+	background: #b3b4b4 url(../images/bio-title.jpg) no-repeat;
+	background-size: contain;
+	}
+#bio .info {
+	width: 97%;
+	height: auto;
+	display: inline;
+	float: left;	
+	color: #000000;
+	margin: 0px 1.5% 0px 1.5%;
+	}
+	
+/* 'aaron
+---------------------------------------------------------*/
+
+#aaron {
+	width: 100%;
+	height: 150px;
+	clear: both;
+	overflow: hidden;
+	padding: 0px 0px 30px 0px;
+	background: url(../images/aaron-pics.jpg) top center no-repeat;
+	background-size: cover;
+	}
+	
+}
