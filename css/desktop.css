@@ -290,16 +290,16 @@ body {
 	background-size: cover;
 	}
 	
+
+#blog .container {
+	text-align: center;
+	padding: 8em 0;
+	}
+	
+#blog a {
+	color: white;
+	font-size: 26px;
+	text-decoration: none;
 }
 
-#blog {
-	.container {
-		text-align: center;
-		padding: 8em 0;
-	}
-	a {
-		color: white;
-		font-size: 26px;
-		text-decoration: none;
-	}
 }
